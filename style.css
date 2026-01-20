@@ -38,6 +38,22 @@ body {
   font-size: 0.85rem;
 }
 
+.social {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.social a {
+  color: #e2e8f0;
+  font-size: 1rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social a:hover {
+  color: #38bdf8;
+  transform: translateY(-2px);
+}
+
 .module { padding: 3rem 0; }
 .module.alt { background: #fff; }
 
@@ -165,5 +181,6 @@ button:hover { background: #2563eb; }
   letter-spacing: 0.03em;      /* ar institucional */
   text-transform: uppercase;
 }
+
 
 
