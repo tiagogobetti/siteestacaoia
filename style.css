@@ -153,6 +153,8 @@ button:hover { background: #2563eb; }
   color: #ffffff;
   margin: 0;
   line-height: 1.2;
+  border-left: 3px solid #38bdf8;
+  padding-left: 0.8rem;
 }
 
 .header-title h2 {
@@ -163,4 +165,5 @@ button:hover { background: #2563eb; }
   letter-spacing: 0.03em;      /* ar institucional */
   text-transform: uppercase;
 }
+
 
