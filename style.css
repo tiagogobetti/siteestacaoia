@@ -1,0 +1,166 @@
+* { box-sizing: border-box; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #0f172a;
+  color: #fff;
+  z-index: 1000;
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.subtitle { font-size: 0.9rem; opacity: 0.8; }
+
+.menu a {
+  color: #cbd5f5;
+  margin: 0 0.4rem;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.module { padding: 3rem 0; }
+.module.alt { background: #fff; }
+
+h2 { color: #0f172a; }
+
+.prompt-box {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 1.2rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+}
+
+.level-tag {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.level-basic { border-left: 5px solid #22c55e; }
+.level-mid { border-left: 5px solid #3b82f6; }
+.level-advanced { border-left: 5px solid #a855f7; }
+
+pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+button {
+  margin-top: 1rem;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover { background: #2563eb; }
+
+.tip {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #0f172a;
+  color: #cbd5f5;
+  font-size: 0.8rem;
+}
+
+.intro {
+  background: #ffffff;
+  padding: 3rem 0;
+}
+
+.intro h2 {
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 0.95rem;
+  max-width: 900px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2.5rem;
+}
+
+.flow span {
+  background: #f1f5f9;
+  border: 1px solid #cbd5f5;
+  padding: 0.5rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.ia-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.ia-buttons a {
+  background: #2563eb;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.ia-buttons a:hover {
+  background: #1e40af;
+}
+
+.header-title h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.header-title h2 {
+  font-size: 0.95rem;          /* um pouco maior */
+  font-weight: 500;
+  color: #e2e8f0;              /* cinza claro (ótimo contraste) */
+  margin-top: 0.3rem;
+  letter-spacing: 0.03em;      /* ar institucional */
+  text-transform: uppercase;
+}
+

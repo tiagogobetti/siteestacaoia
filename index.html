@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Estação: IA na práxis! | NTE – Dionísio Cerqueira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-flex">
+    <div class="header-title">
+    <h1>Jornada Pedagógica 2026 | Estação IA na práxis!</h1>
+    <h2>NTE – CRE Dionísio Cerqueira</h2>
+  </div>
+
+    <nav class="menu">
+      <a href="#mod1">Plano de Aula</a>
+      <a href="#mod2">Refinamento</a>
+      <a href="#mod3">Criatividade</a>
+      <a href="#mod4">Pesquisa</a>
+      <a href="#mod5">Arquivos</a>
+      <a href="#mod6">Gems</a>
+    </nav>
+
+    <div class="social">
+      <a href="#">🌐</a>
+      <a href="#">📷</a>
+      <a href="#">🔗</a>
+    </div>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="container">
+
+    <h2>IA Generativa na prática docente</h2>
+
+    <p class="intro-text">
+      <strong>O que é IA Generativa?</strong><br>
+      A Inteligência Artificial Generativa é capaz de criar textos, imagens, atividades e análises a partir de comandos escritos (prompts).
+      Na educação, ela atua como <strong>ferramenta de apoio ao professor</strong>, auxiliando no planejamento e na criação de materiais,
+      sem substituir o olhar pedagógico, ético e humano do docente.
+    </p>
+
+    <h3>Fluxo de uso da IA no trabalho do professor</h3>
+
+    <div class="flow">
+      <span>Ideia inicial</span>
+      <span>Prompt detalhado</span>
+      <span>Geração da IA</span>
+      <span>Revisão crítica</span>
+      <span>Adaptação ao contexto</span>
+      <span>Atividade final</span>
+    </div>
+
+    <h3>Acessos rápidos</h3>
+
+    <div class="ia-buttons">
+      <a href="https://chat.openai.com" target="_blank">💬 ChatGPT</a>
+      <a href="https://gemini.google.com" target="_blank">✨ Gemini</a>
+      <a href="https://copilot.microsoft.com" target="_blank">🤖 Copilot</a>
+      <a href="https://www.perplexity.ai" target="_blank">🔎 Perplexity</a>
+      <a href="https://notebooklm.google.com" target="_blank">📒 Notebook LM</a>
+      <a href="https://drive.google.com/drive/folders/1Y9btt5dK3P418ZVlsPYscO4TZ86S9dbC?usp=sharing" target="_blank">
+        📁 Arquivos da Estação
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<main>
+
+<!-- MÓDULO 1 -->
+<section id="mod1" class="module">
+  <div class="container">
+    <h2>Módulo 1 – Planejamento de Aula</h2>
+
+    <p class="objective">
+      🎯 <strong>Objetivo:</strong> Compreender como a qualidade do prompt influencia diretamente o planejamento pedagógico.
+    </p>
+
+    <p class="when">
+      🧠 <strong>Quando usar:</strong> Planejamento de aulas, sequências didáticas e projetos.
+    </p>
+
+    <h3>🔼 Evolução dos Prompts</h3>
+
+    <div class="prompt-box level-basic">
+      <span class="level-tag">🟢 Prompt 1 — Inicial</span>
+      <pre id="p1">Elabore um plano de aula sobre revolução industrial para uma turma de ensino médio.</pre>
+      <button onclick="copyPrompt('p1')">📋 Copiar e executar</button>
+    </div>
+
+    <div class="prompt-box level-mid">
+      <span class="level-tag">🔵 Prompt 2 — Refinado</span>
+      <pre id="p2">Atue como um professor de História especialista.
+Crie um esboço de plano de aula de 50 minutos sobre a Revolução Industrial para o 2º ano do Ensino Médio.
+Utilize a metodologia de Sala de Aula Invertida.
+O foco deve ser nas consequências sociais para os trabalhadores.</pre>
+      <button onclick="copyPrompt('p2')">📋 Copiar e executar</button>
+    </div>
+
+    <div class="prompt-box level-advanced">
+      <span class="level-tag">🟣 Prompt 3 — Profissional</span>
+      <pre id="p3">Você é um consultor pedagógico especialista na BNCC.
+
+Cenário: Tenho uma turma de 9º ano agitada, muito visual e conectada à tecnologia, com dificuldade em textos longos.
+Conteúdo: Revolução Industrial (EF09HI11).
+Tarefa: Crie um plano de aula de 2 tempos (100 minutos) usando Aprendizagem Baseada em Projetos (PBL).
+
+Requisitos:
+- Atividade prática usando celular (sem redes sociais)
+- Avaliação formativa lúdica
+- Linguagem engajadora
+
+Saída: Organize em uma tabela com Momento da Aula, Atividade, Recurso Necessário e Tempo Estimado.</pre>
+      <button onclick="copyPrompt('p3')">📋 Copiar e executar</button>
+    </div>
+
+    <p class="tip">💡 Observe como cada novo detalhe melhora significativamente o resultado da IA.</p>
+  </div>
+</section>
+
+<!-- MÓDULO 2 -->
+<section id="mod2" class="module alt">
+  <div class="container">
+    <h2>Módulo 2 – Refinamento e Colaboração (Canvas)</h2>
+
+    <p class="objective">
+      🎯 <strong>Objetivo:</strong> Mostrar que o primeiro resultado da IA nunca é definitivo.
+    </p>
+
+    <div class="prompt-box level-mid">
+      <span class="level-tag">🔵 Prompt base</span>
+      <pre id="p4">Crie uma rubrica de avaliação detalhada para um seminário em grupo sobre Sustentabilidade, avaliando:
+- Oratória
+- Conteúdo Visual
+- Trabalho em Equipe
+Pontuação de 0 a 10.</pre>
+      <button onclick="copyPrompt('p4')">📋 Copiar e executar</button>
+    </div>
+
+    <div class="mini-prompts">
+      <h4>🔄 Refinamentos no Canvas</h4>
+      <ul>
+        <li>“Torne os critérios de Trabalho em Equipe mais rigorosos e exija autoavaliação.”</li>
+        <li>“Ajuste o tom para ser encorajador e construtivo para alunos do 6º ano.”</li>
+      </ul>
+    </div>
+
+    <p class="tip">💡 A IA também se usa editando, não apenas perguntando.</p>
+  </div>
+</section>
+
+<!-- MÓDULO 3 -->
+<section id="mod3" class="module">
+  <div class="container">
+    <h2>Módulo 3 – Criatividade, Visualização e Gamificação</h2>
+
+    <h3>Cenário A — Storyboard (Física)</h3>
+
+    <div class="prompt-box level-advanced">
+      <pre id="p5">Atue como um roteirista e designer instrucional de Física especializado em comunicação científica para jovens.
+
+Objetivo: Criar um storyboard detalhado para explicar o que é um Acelerador de Partículas para alunos do 1º ano do Ensino Médio.
+
+Estrutura:
+- 4 quadros (slides):
+1. O que são (analogia simples)
+2. Como são aceleradas (o empurrão)
+3. Campos magnéticos (o volante)
+4. Colisões (a descoberta)
+
+Para cada quadro:
+- Título curto
+- Texto do professor (até 3 frases)
+- Descrição visual detalhada</pre>
+      <button onclick="copyPrompt('p5')">📋 Copiar e executar</button>
+    </div>
+
+    <h3>Cenário B — Gamificação (História)</h3>
+
+    <div class="prompt-box level-advanced">
+      <pre id="p6">Crie uma atividade gamificada para uma turma de 7º ano sobre História do Brasil (Período Colonial).
+
+Tema: Estética inspirada no jogo "Among Us".
+Narrativa: Alunos são tripulantes do tempo e precisam identificar afirmações históricas falsas.
+
+Tarefa:
+Crie um quiz com 5 rodadas.
+Para cada rodada:
+- Cenário
+- 3 afirmações (2 verdadeiras e 1 falsa)
+- Identifique o impostor e explique
+
+Temas:
+1. Chegada dos Portugueses
+2. Pau-Brasil
+3. Capitanias Hereditárias
+4. Mão de obra escravizada
+5. Invasões Holandesas</pre>
+      <button onclick="copyPrompt('p6')">📋 Copiar e executar</button>
+    </div>
+  </div>
+</section>
+
+<!-- MÓDULO 4 -->
+<section id="mod4" class="module alt">
+  <div class="container">
+    <h2>Módulo 4 – Pesquisa Confiável (Deep Research)</h2>
+
+    <div class="prompt-box level-mid">
+      <pre id="p7">Realize uma pesquisa aprofundada sobre os impactos das mudanças climáticas na agricultura brasileira nos últimos 5 anos.
+
+Necessidades:
+- Dados estatísticos (Embrapa, IBGE ou artigos científicos)
+- 3 argumentos científicos sólidos
+- Links diretos para todas as fontes</pre>
+      <button onclick="copyPrompt('p7')">📋 Copiar e executar</button>
+    </div>
+
+    <p class="tip">⚠️ Sempre clique nos links e valide as fontes.</p>
+  </div>
+</section>
+
+<!-- MÓDULO 5 -->
+<section id="mod5" class="module">
+  <div class="container">
+    <h2>Módulo 5 – Análise de Arquivos</h2>
+
+    <div class="prompt-box level-mid">
+      <h4>📊 Planilhas</h4>
+      <pre id="p8">Analise esta planilha de notas.
+Identifique os 3 tópicos com pior desempenho e sugira 2 atividades de recuperação focadas nessas dificuldades.</pre>
+      <button onclick="copyPrompt('p8')">📋 Copiar e executar</button>
+    </div>
+
+    <div class="prompt-box level-mid">
+      <h4>📄 PDF</h4>
+      <pre id="p9">Com base APENAS neste PDF anexado, elabore 5 questões de múltipla escolha no estilo ENEM.
+Indique a resposta correta e a justificativa.
+Não utilize conhecimento externo.</pre>
+      <button onclick="copyPrompt('p9')">📋 Copiar e executar</button>
+    </div>
+  </div>
+</section>
+
+<!-- MÓDULO 6 -->
+<section id="mod6" class="module alt">
+  <div class="container">
+    <h2>Módulo 6 – Criação de Gems</h2>
+      <div class="prompt-box level-advanced">
+      <h3> Objetivo: Criar "mini-aplicativos" dentro do Gemini para tarefas recorrentes. Isso economiza tempo de digitar prompts longos toda vez.</h3>
+      <h4>🧱 Instruções do Gem</h4>
+      <pre id="p10">Você é um escritor infanto-juvenil premiado e pedagogo. Sua função é criar contos curtos que expliquem conceitos complexos de forma lúdica
+Sempre pergunte:
+1. Qual o conceito?
+2. Qual a idade?
+3. Qual o gênero?
+
+Crie uma história curta, glossário com 3 termos e 3 perguntas de interpretação.</pre>
+      <button onclick="copyPrompt('p10')">📋 Copiar</button>
+    </div>
+
+    <div class="prompt-box level-basic">
+      <h4>▶️ Ex: Gem "Conceito: Fotossíntese. Idade: 12 anos. Gênero: Mistério num jardim."
+</h4>
+      <pre id="p11">Conceito: Fotossíntese
+Idade: 8 anos
+Gênero: Mistério num jardim
+
+Nome do Gem: Contador de Histórias Pedagógico Descrição: Cria narrativas lúdicas para explicar conteúdos escolares.
+Instruções: Você é um premiado autor de literatura infanto-juvenil com formação em Pedagogia. Sua missão é auxiliar professores a transformar conteúdos curriculares (seja de matemática, história, ciências ou gramática) em contos envolventes que facilitem a compreensão dos alunos.
+
+### REGRAS DE INTERAÇÃO:
+1. Ao receber um comando, verifique se o usuário informou: O TEMA (conteúdo), a FAIXA ETÁRIA (ou ano escolar) e o GÊNERO literário desejado (aventura, mistério, fábula, sci-fi).
+2. Se faltar alguma dessas informações, pergunte ao usuário antes de escrever a história.
+3. Se todas as informações estiverem presentes, escreva a história seguindo a ESTRUTURA PADRÃO abaixo.
+ESTRUTURA PADRÃO DA RESPOSTA:
+### 📖 [Título Criativo e Atraente]
+**A História:**
+Escreva uma narrativa curta (aprox. 300-400 palavras) onde o conceito ensinado é fundamental para a resolução do conflito. Use metáforas e analogias adequadas à idade informada. O tom deve ser inspirador e cativante.
+### 🔍 Cantinho das Palavras (Glossário)
+Liste 3 palavras ou conceitos mais complexos que apareceram no texto e dê uma definição simples e amigável para a idade do aluno.
+### 🧠 Hora de Pensar (Perguntas de Interpretação)
+Crie 3 perguntas para o professor usar em sala:
+1. Uma pergunta de localização de informação explícita no texto.
+2. Uma pergunta de inferência (que exige ler nas entrelinhas).
+3. Uma pergunta de conexão pessoal (como isso se aplica à vida do aluno?).</pre>
+      <button onclick="copyPrompt('p11')">📋 Copiar</button>
+    </div>
+ <div class="prompt-box level-basic">
+      <h4>▶️ O "Adaptador de Atividades" (Inclusão)
+</h4>
+      <pre id="p11">Configuração do Gem:
+
+Nome: Inclusão & Acessibilidade
+Instruções do Sistema:
+"Você é um especialista em Educação Especial e Inclusiva. Seu objetivo é adaptar atividades regulares para alunos com diferentes neurodivergências (TEA, TDAH, Dislexia). Suas sugestões devem focar em adaptação de formato, tempo e suporte visual, mantendo o objetivo pedagógico."
+
+Como o professor usa:
+Prompt no Gem: "Tenho uma atividade de leitura e interpretação de texto de 2 páginas sobre o Ciclo da Água. Como adaptar para um aluno com dislexia severa e TDAH?"</pre>
+      <button onclick="copyPrompt('p11')">📋 Copiar</button>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 – Núcleo de Tecnologias Educacionais | CRE Dionísio Cerqueira - SC</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
