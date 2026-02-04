@@ -137,7 +137,7 @@ button:hover { background: #2563eb; }
   background: #f1f5f9;
   border: 1px solid #cbd5f5;
   padding: 0.5rem 0.8rem;
-  border-radius: 999px;
+  border-radius:  999px;
   font-size: 0.8rem;
   white-space: nowrap;
 }
@@ -145,22 +145,57 @@ button:hover { background: #2563eb; }
 .ia-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+  justify-content: center;
 }
 
-.ia-buttons a {
+.ia-buttons button {
   background: #2563eb;
   color: #fff;
-  padding: 0.7rem 1.2rem;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  min-width: 140px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.ia-buttons button:hover {
+  background: #1e40af;
+  transform: translateY(-1px);
+}
+
+.files-access {
+  margin-top: 0.5rem;
+}
+
+.files-access a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  background: #16a34a;
+  color: #fff;
+  padding: 0.7rem 1.4rem;
   border-radius: 10px;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
+  
   transition: background 0.2s ease;
 }
 
-.ia-buttons a:hover {
-  background: #1e40af;
+.files-access a:hover {
+  background: #15803d;
 }
 
 .header-title h1 {
@@ -297,3 +332,51 @@ button:hover { background: #2563eb; }
   background: #1e40af;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.7);
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #ffffff;
+  max-width: 420px;
+  width: 90%;
+  padding: 2rem;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h3 {
+  margin-bottom: 1rem;
+}
+
+.modal-content p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #334155;
+  margin-bottom: 1.5rem;
+}
+
+.modal-button {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}

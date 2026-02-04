@@ -68,17 +68,26 @@
 
     <h3>Acessos rápidos</h3>
 
-    <div class="ia-buttons">
-      <a href="https://chat.openai.com" target="_blank">💬 ChatGPT</a>
-      <a href="https://gemini.google.com" target="_blank">✨ Gemini</a>
-      <a href="https://copilot.microsoft.com" target="_blank">🤖 Copilot</a>
-      <a href="https://www.perplexity.ai" target="_blank">🔎 Perplexity</a>
-      <a href="https://notebooklm.google.com" target="_blank">📒 Notebook LM</a>
-      <a href="https://manus.im/" target="_blank">🖐️ Manus</a>
-      <a href="https://drive.google.com/drive/folders/1Y9btt5dK3P418ZVlsPYscO4TZ86S9dbC?usp=sharing" target="_blank">
-        📁 Arquivos
-      </a>
-    </div>
+<div class="ia-buttons">
+  <button data-ia="chatgpt">💬 ChatGPT</button>
+  <button data-ia="gemini">✨ Gemini</button>
+  <button data-ia="copilot">🤖 Copilot</button>
+  <button data-ia="perplexity">🔎 Perplexity</button>
+  <button data-ia="notebooklm">📒 Notebook LM</button>
+  <button data-ia="manus">🖐️ Manus</button>
+  <button data-ia="teachy">🎓 Teachy</button>
+  <button data-ia="curipod">📊 Curipod</button>
+  <button data-ia="fliki">🎥 Fliki</button>
+</div>
+
+<div class="files-access">
+  <a href="https://drive.google.com/drive/folders/1Y9btt5dK3P418ZVlsPYscO4TZ86S9dbC?usp=sharing"
+     target="_blank">
+    📁 Acessar arquivos da oficina
+  </a>
+</div>
+
+
 
   </div>
 </section>
@@ -397,9 +406,9 @@ Crie 3 perguntas para o professor usar em sala:
         <h3>🧠 Identificador de Habilidades – SC</h3>
         <p>
           Auxilia na identificação e organização de habilidades da BNCC e do Currículo
-          Base do Território Catarinense a partir de conteúdos, objetivos ou atividades propostas.
+          de Santa Catarina a partir de conteúdos, objetivos ou atividades propostas.
         </p>
-        <a href="https://gemini.google.com/gem/1vGugG9wWHxaOMy75FS7dWQCyM9MI4NXB?usp=sharing" target="_blank">Acessar Gem</a>
+        <a href="#" target="_blank">Acessar Gem</a>
       </div>
 
       <div class="gem-card">
@@ -408,7 +417,7 @@ Crie 3 perguntas para o professor usar em sala:
           Cria propostas de atividades alinhadas ao Currículo de Educação Digital de
           Santa Catarina, considerando ano, componente curricular e habilidades.
         </p>
-        <a href="https://gemini.google.com/gem/11snzSSYLaSsjjpd22tJKLJnJLWTjfd8J?usp=sharing" target="_blank">Acessar Gem</a>
+        <a href="#" target="_blank">Acessar Gem</a>
       </div>
 
       <div class="gem-card">
@@ -417,7 +426,7 @@ Crie 3 perguntas para o professor usar em sala:
           Apoia a adaptação de conteúdos e atividades para diferentes necessidades
           educacionais, mantendo os objetivos pedagógicos centrais.
         </p>
-        <a href="https://gemini.google.com/gem/16d8aRRpbWv-heTpz_wA7q8aiPNGxvwYa?usp=sharing" target="_blank">Acessar Gem</a>
+        <a href="#" target="_blank">Acessar Gem</a>
       </div>
 
     </div>
@@ -425,14 +434,27 @@ Crie 3 perguntas para o professor usar em sala:
   </div>
 </section>
 
+
 </main>
 
 <footer class="footer">
   <p>© 2026 – Núcleo de Tecnologias Educacionais | CRE Dionísio Cerqueira - SC</p>
 </footer>
 
+<div id="ia-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <h3 id="modal-title"></h3>
+    <p id="modal-description"></p>
+
+    <a id="modal-link" href="#" target="_blank" class="modal-button">
+      Acessar a IA
+    </a>
+  </div>
+</div>
+
 <script src="script.js"></script>
+
 </body>
 </html>
-
-
